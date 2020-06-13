@@ -6,6 +6,7 @@ public class Account {
 	private String password;
 	private AccountStatus accountStatus;
 	private Person person;
+	private LibraryCard libraryCard;
 	/**
 	 * @return the id
 	 */
@@ -55,6 +56,18 @@ public class Account {
 		this.person = person;
 	}
 	
+	/**
+	 * @return the libraryCard
+	 */
+	public LibraryCard getLibraryCard() {
+		return libraryCard;
+	}
+	/**
+	 * @param libraryCard the libraryCard to set
+	 */
+	public void setLibraryCard(LibraryCard libraryCard) {
+		this.libraryCard = libraryCard;
+	}
 	public boolean resetPassword() {
 		
 		return true;
