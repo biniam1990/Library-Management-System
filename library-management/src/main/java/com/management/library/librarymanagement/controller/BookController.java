@@ -10,7 +10,6 @@ public class BookController {
 
 	@GetMapping("/title")
 	public String getBooktitle() {
-		
 		return "title";
 	}
 	

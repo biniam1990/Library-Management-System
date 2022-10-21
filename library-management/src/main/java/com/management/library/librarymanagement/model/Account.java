@@ -1,5 +1,8 @@
 package com.management.library.librarymanagement.model;
 
+import lombok.Data;
+
+@Data
 public class Account {
 	
 	private String id;
